@@ -1,0 +1,113 @@
+{
+    "files.associations": {
+        "*.vert": "glsl",
+        "*.frag": "glsl",
+        "*.vsh": "glsl",
+        "*.fsh": "glsl",
+        "*.ebnf": "ebnf",
+        "ostream": "cpp",
+        "array": "cpp",
+        "atomic": "cpp",
+        "bit": "cpp",
+        "cctype": "cpp",
+        "charconv": "cpp",
+        "clocale": "cpp",
+        "cmath": "cpp",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "cstdarg": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "ctime": "cpp",
+        "cwchar": "cpp",
+        "cwctype": "cpp",
+        "deque": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "exception": "cpp",
+        "algorithm": "cpp",
+        "functional": "cpp",
+        "iterator": "cpp",
+        "memory": "cpp",
+        "memory_resource": "cpp",
+        "numeric": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "format": "cpp",
+        "initializer_list": "cpp",
+        "iosfwd": "cpp",
+        "iostream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "numbers": "cpp",
+        "span": "cpp",
+        "stdexcept": "cpp",
+        "streambuf": "cpp",
+        "text_encoding": "cpp",
+        "cinttypes": "cpp",
+        "typeinfo": "cpp",
+        "variant": "cpp",
+        "ratio": "cpp",
+        "chrono": "cpp",
+        "iomanip": "cpp",
+        "sstream": "cpp",
+        "semaphore": "cpp",
+        "stop_token": "cpp",
+        "thread": "cpp",
+        "fstream": "cpp",
+        "map": "cpp"
+    },
+    "todohighlight.keywords": [
+        {
+            "text": "TODO",
+            "color": "red",
+            "backgroundColor": "",
+            "fontStyle": "italic"
+        },
+        {
+            "text": "NOTE",
+            "color": "purple",
+            "backgroundColor": "",
+            "fontStyle": "italic"
+        },
+        {
+            "text": "FIXME",
+            "color": "yellow",
+            "backgroundColor": "",
+            "fontWeight": "bold",
+            "fontStyle": "italic"
+        },
+        {
+            "text": "DBG", // Debug note; indicated that the code is temporary and should be removed before release
+            "color": "#2f2f2f",
+            "backgroundColor": "#3a5970",
+            "fontWeight": "bold",
+            "fontStyle": "italic"
+        },
+        {
+            "text": "TEMP", // Debug note; indicated that the code is temporary and should be removed before release
+            "color": "#2f2f2f",
+            "backgroundColor": "#5a4990",
+            "fontWeight": "bold",
+            "fontStyle": "italic"
+        },
+        {
+            "text": "__ERR__", // Debug note; indicated that the code is temporary and should be removed before release
+            "color": "#000000",
+            "backgroundColor": "#b11212",
+            "fontWeight": "bold",
+            "fontStyle": "italic"
+        }
+    ],
+    "C_Cpp.errorSquiggles": "enabled",
+    "CodeGPT.apiKey": "Anthropic"
+}
