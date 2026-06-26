@@ -4,7 +4,7 @@
 #include "byteglyph/common.h"
 #include <stdlib.h>
 
-typedef struct {
+typedef struct byteglyph_bitreader_s {
     const u8* data;   // input buffer
     usize size;       // dimension (bytes)
     usize pos;        // current byte
@@ -40,6 +40,12 @@ static inline u64 byteglyph_br_read_bits(byteglyph_bitreader_t* br, u8 count) {
         value = (value << 1) | byteglyph_br_read_bit(br);
     }
     return value;
+}
+
+static inline usize byteglyph_br_bits_left(const byteglyph_bitreader_t* br) {
+    if (br->pos >= br->size)
+        return 0;
+    return (br->size - br->pos) * 8 - br->bitpos;
 }
 
 #define byteglyph_br_read_u8(br)  ((u8) byteglyph_br_read_bits(br, 8))
